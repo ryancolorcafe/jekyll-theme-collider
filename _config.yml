@@ -1,0 +1,38 @@
+title: Ryan Brown
+email: ryancolorcafe@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  My portfolio and musings on all ranges of programming topics, mainly Ruby on Rails.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  ryancolorcafe
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-paginate-v2
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# Collection configurations
+collections:
+  blog_posts:
+    output: true
+    permalink: /collection/:name
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: '/:num/'
+  title: ':title | :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  collection: 'blog_posts'
+  trail:
+    before: 2
+    after: 2
+
+permalink: pretty

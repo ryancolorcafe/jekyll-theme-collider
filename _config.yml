@@ -8,7 +8,6 @@ github_username:  ryancolorcafe
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-paginate-v2
 exclude:

@@ -1,26 +1,53 @@
+* {
+  font-family: "Operator Mono SSm-Book";
+  color: grey;
+}
+
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
 }
 
-#particles-js {
-  height: 100%;
-  background: darkseagreen;
+a {
+  color: grey;
+  transition: 0.5s;
 }
 
-.site-title {
+a:hover {
+  color: #515151;
+}
+
+.whatevs {
+  padding: 1.5rem;
+}
+
+.site-title-nav {
   float: left;
+  font-family: "Operator Mono SSm-Bold Italic";
+  text-decoration: none;
+  color: white;
+  pointer-events: all;
+}
+
+.site-nav {
+  position: absolute;
+  width: 100%;
+  pointer-events: none;
 }
 
 .site-nav ul {
   margin: 0;
-  padding: 0;
+  padding-top: 5px;
   float: right;
+  font-family: "Operator Mono SSm-Light";
+  text-decoration: none;
+  padding: 1.5rem;
 }
 
 .site-nav li {
   display: inline;
+  padding: 5px 5px;
+  pointer-events: all;
 }
 
 /* Pagination button styles */
@@ -31,12 +58,209 @@ ul .pager {
 }
 
 ul .pager li {
-  display: inline;
-  border: 1px solid black;
+  display: inline-block;
+  border: 1px solid grey;
   padding: 10px;
-  margin: 5px;
+  margin: 5px 0px;
+}
+
+.pager li {
+  transition: color 0.5s;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+
+.pager li:hover {
+  background-color: grey;
+}
+
+.pager li a {
+  text-decoration: none;
+}
+
+.pager li:hover a {
+  color: white;
 }
 
 .selected {
-  background-color: rosybrown;
+  background-color: grey;
+}
+
+.selected a {
+  color: white;
+  transition: color 0.5s;
+}
+
+.selected a:hover {
+  color: #515151;
+}
+
+#particles-js {
+  background: darkseagreen;
+  vertical-align: bottom;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  /* padding: 1.5rem; */
+}
+
+.particles-js-canvas-el {
+  width: 100% !important;
+  height: 100vh !important;
+}
+
+.site-title {
+  font-size: 50px;
+  display: block;
+  line-height: 1;
+  color: #fff;
+}
+
+@media only screen and (min-width: 550px) {
+  .site-title {
+    margin: 0;
+    font-size: 100px;
+  }
+}
+
+.site-description {
+  font-size: 20px;
+  display: block;
+  line-height: 1;
+  color: #FFF;
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 550px) {
+  .site-description {
+    font-size: 40px;
+  }
+}
+
+/* a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.5s;
+}
+
+a:hover {
+  color: grey;
+} */
+
+.page-link {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.5s;
+}
+
+.page-link:hover {
+  color: #515151;
+}
+
+.header {
+  text-align: center;
+  color: #FFF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: "Operator Mono SSm-Medium";
+  z-index: 1;
+}
+
+.header__title {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  max-width: 960px;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Operator Mono SSm-Bold";
+  color: white;
+  font-size: 4em;
+}
+
+.hdr {
+  padding-top: 1.125rem;
+  padding-bottom: 1.125rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  position: relative;
+}
+
+.post-list {
+  max-width: 45em;
+  padding: 1em 1em 4em 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-list li {
+  list-style: none;
+}
+
+.post-link {
+  text-decoration: none;
+  font-size: 42px;
+  color: grey;
+  transition: color 0.5s;
+  font-family: "Operator Mono SSm-Medium";
+}
+
+.post-link:hover {
+  color: #515151;
+}
+
+@media all and (max-width: 800px) {
+  .post-link {
+    font-size: 36px;
+  }
+}
+
+.post-meta {
+  color: grey;
+  font-family: "Operator Mono SSm-Book";
+}
+
+.post-meta a {
+  text-decoration: none;
+  transition: color 0.5s;
+  transition: background-color 0.5s;
+  background: grey;
+  border-radius: 5px;
+  padding: 5px 8px;
+  color: white;
+  font-family: "Operator Mono SSm-Book";
+}
+
+.post-meta a:visited {
+  color: #fff;
+}
+
+.post-meta a:hover {
+  color: #fff;
+  background-color: #515151;
+}
+
+.excerpt {
+  font-family: "Operator Mono SSm-Book";
+  color: grey;
+}
+
+.read-more {
+  transition: color 0.5s;
+}
+
+.read-more:hover {
+  color: #515151;
+}
+
+.pager {
+  padding-top: 4em;
 }

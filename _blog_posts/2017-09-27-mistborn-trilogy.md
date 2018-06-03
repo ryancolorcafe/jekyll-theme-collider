@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Mistborn Trilogy : The Final Empire, the Well of Ascension, the Hero of Ages"
+title:  "This is a post title"
 date:   2017-09-27 19:16:49 +0100
 tags:   fantasy
 ---

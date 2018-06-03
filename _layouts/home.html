@@ -2,7 +2,15 @@
 layout: default
 ---
 
-<div id="particles-js"></div>
+<div id="particles-js">
+  {% include header.html %}
+  <div class="header">
+    <h1>
+      <span class="site-title">{{site.username}}</span>
+      <span class="site-description">{{site.user_title}}</span>
+    </h1>
+  </div>
+</div>
 
 <h1>Home</h1>
 

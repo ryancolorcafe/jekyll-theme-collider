@@ -30,9 +30,12 @@ a:hover {
 }
 
 .site-nav {
-  position: absolute;
   width: 100%;
   pointer-events: none;
+}
+
+.header__items {
+  position: absolute;
 }
 
 .site-nav ul {
@@ -41,7 +44,6 @@ a:hover {
   float: right;
   font-family: "Operator Mono SSm-Light";
   text-decoration: none;
-  padding: 1.5rem;
 }
 
 .site-nav li {
@@ -138,16 +140,6 @@ ul .pager li {
     font-size: 40px;
   }
 }
-
-/* a {
-  text-decoration: none;
-  color: #fff;
-  transition: color 0.5s;
-}
-
-a:hover {
-  color: grey;
-} */
 
 .page-link {
   text-decoration: none;

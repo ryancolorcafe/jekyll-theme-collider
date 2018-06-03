@@ -1,27 +1,25 @@
 {% if page.color %}
   {% assign background = page.color %}
 {% endif %}
-<div class="headerWrap whatevs-my-dude">
-  <header class="{% if page.title == 'Home' %}hdr{% endif %}" style="background-color: {{background}};">
-    <nav class="site-nav header__items">
-      <a class="site-title-nav{% if page.title == 'Home' %} whatevs{% endif %}" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
-      <ul class="{% if page.title == 'Home' %}whatevs{% endif %}">
-        <li class="header__item">
-          <a class="page-link" href="/">Home</a>
-        </li>
-        <li class="header__item">
-          <a class="page-link" href="/blog">Blog</a>
-        </li>
-        <li class="header__item">
-          <a class="page-link" href="/about">About</a>
-        </li>
-        <li class="header__item">
-          <a class="page-link" href="/contact">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    {% unless page.title == 'Home' %}
-      <h1 class="header__title">{{ page.title }}</h1>
-    {% endunless %}
-  </header>
-</div>
+<header class="{% if page.title != 'Home' %}hdr{% endif %}" style="background-color: {{background}};">
+  <nav class="site-nav {% if page.title == 'Home' %}header__items{% endif %}">
+    <a class="site-title-nav{% if page.title == 'Home' %} whatevs{% endif %}" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
+    <ul style="{% if page.title == 'Home' %}padding: 1.5rem;{% endif %}">
+      <li class="header__item">
+        <a class="page-link" href="/">Home</a>
+      </li>
+      <li class="header__item">
+        <a class="page-link" href="/blog">Blog</a>
+      </li>
+      <li class="header__item">
+        <a class="page-link" href="/about">About</a>
+      </li>
+      <li class="header__item">
+        <a class="page-link" href="/contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  {% unless page.title == 'Home' %}
+    <h1 class="header__title">{{ page.title }}</h1>
+  {% endunless %}
+</header>

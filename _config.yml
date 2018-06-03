@@ -27,7 +27,7 @@ pagination:
   enabled: true
   per_page: 3
   permalink: '/:num/'
-  title: ':title | :num of :max'
+  title: ':title'
   limit: 0
   sort_field: 'date'
   sort_reverse: true

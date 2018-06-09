@@ -1,0 +1,35 @@
+.site-title__wrapper {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: "Operator Mono SSm-Medium";
+  z-index: 1;
+}
+
+.site-title__text {
+  max-width: 4.3em;
+  font-size: 75px;
+  display: block;
+  line-height: 1;
+  transition: font-size 0.2s;
+}
+
+.site-title__text--sub {
+  font-size: 20px;
+  margin-top: 10px;
+  transition: font-size 0.2s;
+}
+
+@media only screen and (min-width: 550px) {
+  .site-title__text {
+    font-size: 100px;
+  }
+  .site-title__text--sub {
+    font-size: 40px;
+  }
+}

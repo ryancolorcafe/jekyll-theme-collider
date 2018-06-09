@@ -1,0 +1,61 @@
+.post-list {
+  max-width: 45em;
+  padding: 1em 1em 4em 1em;
+  margin-left: auto;
+  margin-right: auto;
+  & li {
+    list-style: none;
+  }
+}
+
+.post-list__link {
+  text-decoration: none;
+  font-size: 42px;
+  color: $oslo-gray;
+  transition: color 0.5s;
+  font-family: "Operator Mono SSm-Medium";
+  &:hover {
+    color: $outer-space;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .post-list__link {
+    font-size: 36px;
+  }
+}
+
+.post-list__meta {
+  color: $oslo-gray;
+  font-family: "Operator Mono SSm-Book";
+}
+
+.post-list__meta a {
+  text-decoration: none;
+  transition: color 0.5s;
+  transition: background-color 0.5s;
+  background: $oslo-gray;
+  border-radius: 5px;
+  padding: 5px 8px;
+  color: #fff;
+  font-family: "Operator Mono SSm-Book";
+  &:visited {
+    color: #fff;
+  }
+  &:hover {
+    color: #fff;
+    background-color: $outer-space;
+  }
+}
+
+.post-list__excerpt {
+  font-family: "Operator Mono SSm-Book";
+  color: $oslo-gray;
+}
+
+.post-list__read-more {
+  transition: color 0.5s;
+  &:hover {
+    color: $outer-space;
+  }
+}

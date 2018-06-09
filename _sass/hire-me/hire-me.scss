@@ -2,5 +2,19 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 
-@import "base/base";
-@import "base/font";
+// Settings
+@import "settings/colors";
+
+// Generic
+@import "generic/font";
+@import "generic/normalize";
+
+// Elements
+@import "elements/elements";
+
+// Components
+@import "components/header";
+@import "components/particles";
+@import "components/site-title";
+@import "components/pagination";
+@import "components/post-list";

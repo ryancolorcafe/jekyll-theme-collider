@@ -1,21 +1,21 @@
 {% if page.color %}
   {% assign background = page.color %}
 {% endif %}
-<header class="{% if page.title != 'Home' %}hdr{% endif %}" style="background-color: {{background}};">
-  <nav class="site-nav {% if page.title == 'Home' %}header__items{% endif %}">
-    <a class="site-title-nav{% if page.title == 'Home' %} whatevs{% endif %}" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
-    <ul style="{% if page.title == 'Home' %}padding: 1.5rem;{% endif %}">
-      <li class="header__item">
-        <a class="page-link" href="/">Home</a>
+<header class="{% if page.title == 'Home' %}header__homepage{% endif %}" style="background-color: {{background | escape}};">
+  <nav>
+    <a class="header__home" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
+    <ul>
+      <li>
+        <a class="header__link" href="/">Home</a>
       </li>
-      <li class="header__item">
-        <a class="page-link" href="/blog">Blog</a>
+      <li>
+        <a class="header__link" href="/blog">Blog</a>
       </li>
-      <li class="header__item">
-        <a class="page-link" href="/about">About</a>
+      <li>
+        <a class="header__link" href="/about">About</a>
       </li>
-      <li class="header__item">
-        <a class="page-link" href="/contact">Contact</a>
+      <li>
+        <a class="header__link" href="/contact">Contact</a>
       </li>
     </ul>
   </nav>

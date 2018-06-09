@@ -1,0 +1,60 @@
+header {
+  position: relative;
+  padding-top: 1.125em;
+  padding-bottom: 1.125em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+nav {
+  width: 100%;
+  pointer-events: none;
+  & ul {
+    margin: 0;
+    padding-top: 0.2em;
+    float: right;
+    font-family: "Operator Mono SSm-Light";
+  }
+  & li {
+    display: inline;
+    padding: 0.5em;
+    pointer-events: all;
+  }
+}
+
+.header__home {
+  float: left;
+  font-family: "Operator Mono SSm-Bold Italic";
+  text-decoration: none;
+  color: white;
+  pointer-events: all;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.5s;
+  &:hover {
+    color: $outer-space;
+  }
+}
+
+// .header__homepage only renders if on homepage, see liquid inside header element
+header .header__homepage {
+  & nav {
+    position: absolute;
+  }
+  & .header__home, ul {
+    padding: 1.5em;
+  }
+}
+
+.header__title {
+  margin: 1.5em auto 1em auto;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+  text-align: center;
+  font-family: "Operator Mono SSm-Bold";
+  font-size: 4em;
+  color: white;
+}

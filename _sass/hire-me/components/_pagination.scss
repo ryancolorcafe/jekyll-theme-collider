@@ -1,0 +1,35 @@
+.pagination {
+  text-align: center;
+  list-style: none;
+  padding-top: 4em;
+  & a {
+    text-decoration: none;
+  }
+}
+
+.pagination li {
+  display: inline-block;
+  border: 0.05em solid $oslo-gray;
+  padding: 0.7em;
+  transition: color 0.5s, background-color 0.5s;
+  cursor: pointer;
+  &:hover {
+    background-color: $oslo-gray;
+  }
+}
+
+.pagination li:hover a {
+  color: #fff;
+}
+
+.selected {
+  background-color: $oslo-gray;
+}
+
+.selected a {
+  color: #fff;
+  transition: color 0.5s;
+  &:hover {
+    color: $outer-space;
+  }
+}

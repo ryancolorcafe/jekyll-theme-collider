@@ -39,7 +39,7 @@ nav {
   }
 }
 
-// .header__homepage only renders if on homepage, see liquid inside header element
+// .header__homepage only renders if on homepage, see liquid in header element
 header .header__homepage {
   & nav {
     position: absolute;
@@ -57,4 +57,18 @@ header .header__homepage {
   font-family: "Operator Mono SSm-Bold";
   font-size: 4em;
   color: #fff;
+}
+
+@media all and (max-width: 550px) {
+  .header__home {
+    float: none;
+  }
+  nav {
+    text-align: center;
+    & ul {
+      padding: 0;
+      float: none;
+      margin-top: 1em;
+    }
+  }
 }

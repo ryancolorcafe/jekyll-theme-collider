@@ -63,6 +63,9 @@ header .header__homepage {
   .header__home {
     float: none;
   }
+  .header__title {
+    padding: 0;
+  }
   nav {
     text-align: center;
     & ul {

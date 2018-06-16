@@ -11,7 +11,7 @@
 .post-list__link {
   text-decoration: none;
   font-size: 42px;
-  color: $oslo-gray;
+  color: $jumbo-gray;
   transition: color 0.5s;
   font-family: "Operator Mono SSm-Medium";
   &:hover {
@@ -26,7 +26,7 @@
 }
 
 .post-list__meta {
-  color: $oslo-gray;
+  color: $jumbo-gray;
   font-family: "Operator Mono SSm-Book";
 }
 
@@ -34,7 +34,7 @@
   text-decoration: none;
   transition: color 0.5s;
   transition: background-color 0.5s;
-  background: $oslo-gray;
+  background: $jumbo-gray;
   border-radius: 5px;
   padding: 5px 8px;
   color: #fff;
@@ -50,7 +50,7 @@
 
 .post-list__excerpt {
   font-family: "Operator Mono SSm-Book";
-  color: $oslo-gray;
+  color: $jumbo-gray;
 }
 
 .post-list__read-more {

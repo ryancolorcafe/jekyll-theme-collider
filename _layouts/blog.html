@@ -15,9 +15,9 @@ permalink: /blog/
         {% if post.tags %}
           {% for tag in post.tags %}
             {% if tag == "humor" %}
-              {% assign background = "pink" %}
+              {% assign background = "#ECA4A6" %}
             {% else %}
-              {% assign background = "brown" %}
+              {% assign background = "darkseagreen" %}
             {% endif %}
             <a style="background-color: {{ background }}" href="/{{ tag }}">{{ tag }}</a>
           {% endfor %}

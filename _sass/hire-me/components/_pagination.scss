@@ -9,12 +9,12 @@
 
 .pagination li {
   display: inline-block;
-  border: 0.05em solid $oslo-gray;
+  border: 0.05em solid $jumbo-gray;
   padding: 0.7em;
   transition: color 0.5s, background-color 0.5s, font-size 0.5s, padding 0.5s;
   cursor: pointer;
   &:hover {
-    background-color: $oslo-gray;
+    background-color: $jumbo-gray;
   }
 }
 
@@ -23,7 +23,7 @@
 }
 
 .selected {
-  background-color: $oslo-gray;
+  background-color: $jumbo-gray;
 }
 
 .selected a {

@@ -1,0 +1,79 @@
+.purple {
+  color: $purple-rain;
+  &.icon {
+    fill: $purple-rain;
+  }
+}
+
+.bg--purple {
+  background: $purple-rain;
+  color: $white;
+}
+
+a.bg--purple:hover {
+  background: darken($purple-rain, $darken--button);
+}
+
+.gray {
+  color: $jumbo-gray;
+  &.icon {
+    fill: $jumbo-gray;
+  }
+}
+
+.bg--gray {
+  background: $jumbo-gray;
+  color: $white;
+}
+
+a.bg--gray:hover {
+  background: darken($jumbo-gray, $darken--button);
+}
+
+.green {
+  color: $green;
+  &.icon {
+    fill: $green;
+  }
+}
+
+.bg--green {
+  background: $green;
+  color: $white;
+}
+
+a.bg--green:hover {
+  background: darken($green, $darken--button);
+}
+
+.pink {
+  color: $pink;
+  &.icon {
+    fill: $pink;
+  }
+}
+
+.bg--pink {
+  background: $pink;
+  color: $white;
+}
+
+a.bg--pink:hover {
+  background: darken($pink, $darken--button);
+}
+
+.orange {
+  color: $orange;
+  &.icon {
+    fill: $orange;
+  }
+}
+
+.bg--orange {
+  background: $orange;
+  color: $white;
+}
+
+a.bg--orange:hover {
+  background: darken($orange, $darken--button);
+}

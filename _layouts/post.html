@@ -7,14 +7,20 @@ layout: default
     <span style="float: left;" class="post-list__meta">{{ post.date | date: "%b %-d, %Y" }}
       {% if page.tags %}
         {% for tag in page.tags %}
-          <a href="/{{ tag }}">{{ tag }}</a>
+          {% assign post_tag_downcase = tag | downcase %}
+          {% for blog_tag in site.blog_tags %}
+            {% assign blog_tag_title = blog_tag.title | downcase %}
+            {% if blog_tag_title == post_tag_downcase %}
+              <a href="/{{ tag }}" class="bg--{{ blog_tag.color | default: 'grey' }}">{{ tag }}</a>
+            {% endif %}
+          {% endfor %}
         {% endfor %}
       {% endif %}
     </span>
     <p style="float: left; margin: 0 0 0 0.5em;" class="post-list__meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
   </header>
 
-  <div class="post-content" itemprop="articleBody" style="color: #807F89">
+  <div class="post-content" itemprop="articleBody" style="color: #868e96">
     <img width="200" hspace="10" src="{{ page.book.cover }}" style="float:right"/>
     {{ content | markdownify }}
   </div>

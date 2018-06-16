@@ -6,3 +6,11 @@ a {
 a:hover {
   color: $outer-space;
 }
+
+p {
+  line-height: 1.25;
+  &::selection {
+    background-color: #000;
+    color: #fff;
+  }
+}

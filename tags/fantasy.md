@@ -2,7 +2,7 @@
 layout: blog
 title: Fantasy
 permalink: /fantasy
-color: darkseagreen
+color: green
 pagination:
   enabled: true
   collection: all

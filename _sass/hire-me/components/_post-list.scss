@@ -34,17 +34,15 @@
   text-decoration: none;
   transition: color 0.5s;
   transition: background-color 0.5s;
-  background: $jumbo-gray;
   border-radius: 5px;
   padding: 5px 8px;
-  color: #fff;
+  color: $white;
   font-family: "Operator Mono SSm-Book";
   &:visited {
-    color: #fff;
+    color: $white;
   }
   &:hover {
-    color: #fff;
-    background-color: $outer-space;
+    color: $white;
   }
 }
 

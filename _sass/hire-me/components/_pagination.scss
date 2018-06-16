@@ -19,7 +19,7 @@
 }
 
 .pagination li:hover a {
-  color: #fff;
+  color: $white;
 }
 
 .selected {
@@ -27,7 +27,7 @@
 }
 
 .selected a {
-  color: #fff;
+  color: $white;
   transition: color 0.5s;
   &:hover {
     color: $outer-space;

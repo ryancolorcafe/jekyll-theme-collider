@@ -26,13 +26,13 @@ nav {
   float: left;
   font-family: "Operator Mono SSm-Bold Italic";
   text-decoration: none;
-  color: #fff;
+  color: $white;
   pointer-events: all;
 }
 
 .header__link {
   text-decoration: none;
-  color: #fff;
+  color: $white;
   transition: color 0.5s;
   &:hover {
     color: $outer-space;
@@ -56,7 +56,7 @@ header .header__homepage {
   text-align: center;
   font-family: "Operator Mono SSm-Bold";
   font-size: 2.75em;
-  color: #fff;
+  color: $white;
 }
 
 @media all and (max-width: 550px) {

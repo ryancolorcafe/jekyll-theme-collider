@@ -21,6 +21,8 @@ collections:
   blog_posts:
     output: true
     permalink: /collection/:name
+  blog_tags:
+
 
 # Pagination Settings
 pagination:

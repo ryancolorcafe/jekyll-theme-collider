@@ -1,5 +1,7 @@
 {% if page.color %}
   {% assign background = page.color %}
+{% else %}
+  {% assign background = "darkseagreen" %}
 {% endif %}
 <header class="{% if page.title == 'Home' %}header__homepage{% endif %}" style="background-color: {{background | escape}};">
   <nav>

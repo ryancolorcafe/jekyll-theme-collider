@@ -3,6 +3,7 @@ layout: post
 title:  "This is a post title"
 date:   2017-09-27 19:16:49 +0100
 tags:   fantasy
+color: "#5c7cfa"
 ---
 
 A boxed set of the landmark fantasy from Brandon Sanderson, the man credited with breathing fresh life into Robert Jordan's WHEEL OF TIME.

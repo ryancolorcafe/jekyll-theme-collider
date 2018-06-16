@@ -3,6 +3,7 @@ layout: post
 title:  Ready Player One
 date:   2016-10-27 19:16:49 +0100
 tags:   humor fantasy
+color: "#339af0"
 ---
 
 It's the year 2044, and the real world has become an ugly place. We're out of oil. We've wrecked the climate. Famine, poverty, and disease are widespread.

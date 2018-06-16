@@ -14,7 +14,12 @@ permalink: /blog/
       <span class="post-list__meta">{{ post.date | date: "%b %-d, %Y" }}
         {% if post.tags %}
           {% for tag in post.tags %}
-            <a href="/{{ tag }}">{{ tag }}</a>
+            {% if tag == "humor" %}
+              {% assign background = "pink" %}
+            {% else %}
+              {% assign background = "brown" %}
+            {% endif %}
+            <a style="background-color: {{ background }}" href="/{{ tag }}">{{ tag }}</a>
           {% endfor %}
         {% endif %}
       </span>

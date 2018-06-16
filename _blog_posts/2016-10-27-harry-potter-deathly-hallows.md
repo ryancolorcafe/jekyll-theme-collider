@@ -3,6 +3,7 @@ layout: post
 title:  Harry Potter and the Deathly Hallows
 date:   2016-10-27 19:16:49 +0100
 tags:   fantasy
+color: "#22b8cf"
 ---
 
 As he climbs into the sidecar of Hagrid's motorbike and takes to the skies, leaving Privet Drive for the last time, Harry Potter knows that Lord Voldemort and the Death Eaters are not far behind. The protective charm that has kept Harry safe until now is now broken, but he cannot keep hiding.

@@ -31,49 +31,49 @@ a.bg--gray:hover {
 }
 
 .green {
-  color: $green;
+  color: $dark-sea-green;
   &.icon {
-    fill: $green;
+    fill: $dark-sea-green;
   }
 }
 
 .bg--green {
-  background: $green;
+  background: $dark-sea-green;
   color: $white;
 }
 
 a.bg--green:hover {
-  background: darken($green, $darken--button);
+  background: darken($dark-sea-green, $darken--button);
 }
 
 .pink {
-  color: $pink;
+  color: $sea-pink;
   &.icon {
-    fill: $pink;
+    fill: $sea-pink;
   }
 }
 
 .bg--pink {
-  background: $pink;
+  background: $sea-pink;
   color: $white;
 }
 
 a.bg--pink:hover {
-  background: darken($pink, $darken--button);
+  background: darken($sea-pink, $darken--button);
 }
 
 .orange {
-  color: $orange;
+  color: $channel-orange;
   &.icon {
-    fill: $orange;
+    fill: $channel-orange;
   }
 }
 
 .bg--orange {
-  background: $orange;
+  background: $channel-orange;
   color: $white;
 }
 
 a.bg--orange:hover {
-  background: darken($orange, $darken--button);
+  background: darken($channel-orange, $darken--button);
 }

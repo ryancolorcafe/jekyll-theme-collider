@@ -1,10 +1,10 @@
 a {
-  color: $jumbo-gray;
-  transition: 0.5s;
+  color: $mine-shaft;
+  transition: color 0.5s;
 }
 
 a:hover {
-  color: $outer-space;
+  color: lighten($mine-shaft, $lighten--button);
 }
 
 p {

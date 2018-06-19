@@ -20,8 +20,7 @@ layout: default
     <p style="float: left; margin: 0 0 0 0.5em;" class="post-list__meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
   </header>
 
-  <div class="post-content" itemprop="articleBody" style="color: #868e96">
-    <img width="200" hspace="10" src="{{ page.book.cover }}" style="float:right"/>
+  <div class="post__content">
     {{ content | markdownify }}
   </div>
 

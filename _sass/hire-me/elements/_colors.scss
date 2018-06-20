@@ -77,3 +77,19 @@ a.bg--pink:hover {
 a.bg--orange:hover {
   background: darken($channel-orange, $darken--button);
 }
+
+.bittersweet {
+  color: $bittersweet;
+  &.icon {
+    fill: $bittersweet;
+  }
+}
+
+.bg--bittersweet {
+  background: $bittersweet;
+  color: $white;
+}
+
+a.bg--bittersweet:hover {
+  background: darken($bittersweet, $darken--button);
+}

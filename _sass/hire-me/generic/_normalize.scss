@@ -12,3 +12,8 @@ body {
   box-sizing: inherit;
   font-family: "Operator Mono SSm-Book";
 }
+
+::selection {
+  background-color: #000;
+  color: $white;
+}

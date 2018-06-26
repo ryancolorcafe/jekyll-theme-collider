@@ -9,8 +9,4 @@ a:hover {
 
 p {
   line-height: 1.25;
-  &::selection {
-    background-color: #000;
-    color: $white;
-  }
 }

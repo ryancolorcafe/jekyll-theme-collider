@@ -2,7 +2,7 @@
 layout: blog
 title: Humor
 permalink: /humor
-color: "#ECA4A6"
+color: pink
 pagination:
   enabled: true
   collection: all

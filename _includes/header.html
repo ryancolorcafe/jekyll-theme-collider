@@ -11,10 +11,12 @@
     {% endfor %}
   {% endfor %}
 {% endif %}
-<!-- style="background-color: {{background | escape}}; -->
+
 <header class="{% if page.title == 'Home' %}header__homepage{% endif %} bg--{{ background | default: 'green' }}">
   <nav>
-    <a class="header__home" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
+    {% unless page.title == 'Home' %}
+      <a class="header__home" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
+    {% endunless %}
     <ul>
       <li>
         <a class="header__link" href="/blog">Blog</a>

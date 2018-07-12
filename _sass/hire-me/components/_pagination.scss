@@ -7,7 +7,7 @@
   }
 }
 
-.pagination li {
+.pagination a {
   display: inline-block;
   border: 0.05em solid $jumbo-gray;
   padding: 0.7em;
@@ -15,6 +15,7 @@
   cursor: pointer;
   &:hover {
     background-color: $jumbo-gray;
+    color: $white;
   }
 }
 
@@ -24,6 +25,7 @@
 
 .selected {
   background-color: $jumbo-gray;
+  color: $white;
 }
 
 .selected a {

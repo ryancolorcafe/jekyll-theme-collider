@@ -1,4 +1,4 @@
 ---
-title: Fantasy
+title: Painting
 color: green
 ---

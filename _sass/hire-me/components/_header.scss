@@ -40,12 +40,12 @@ nav {
 }
 
 // .header__homepage only renders if on homepage, see liquid in header element
-header .header__homepage {
-  & nav {
-    position: absolute;
-  }
-  & .header__home, ul {
-    padding: 1.5em;
+header.header__homepage {
+  position: absolute;
+  background: transparent;
+  & ul {
+    position: fixed;
+    right: 1.5em;
   }
 }
 
@@ -60,8 +60,13 @@ header .header__homepage {
 }
 
 @media all and (max-width: 550px) {
-  .header__home {
+  .header__homepage {
     float: none;
+    width: 100%;
+  }
+  header.header__homepage ul {
+    position: unset;
+    right: unset;
   }
   .header__title {
     padding: 0;

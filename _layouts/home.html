@@ -14,26 +14,5 @@ layout: default
   </div>
 </div>
 
-<!-- <h1>Home</h1>
-
-<ul>
-  {% assign posts = site.blog_posts | sort: 'date' | reverse %}
-  {% for post in posts limit: 1 %}
-    <li>
-      <span>{{ post.date | date: "%b %-d, %Y" }}
-        {% if post.tags %}
-          <br>
-          {% for tag in post.tags %}
-            <a href="/{{ tag }}">{{ tag }}</a>
-          {% endfor %}
-        {% endif %}
-      </span>
-      <h2>
-        <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-      </h2>
-    </li>
-  {% endfor %}
-</ul> -->
-
 <script type="text/javascript" src="{{ base.url | prepend: site.url }}/assets/js/particles.js"></script>
 <script type="text/javascript" src="{{ base.url | prepend: site.url }}/assets/js/app.js"></script>

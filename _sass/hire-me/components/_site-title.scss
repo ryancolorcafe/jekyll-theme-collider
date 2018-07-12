@@ -9,6 +9,7 @@
   transform: translate(-50%, -50%);
   font-family: "Operator Mono SSm-Medium";
   z-index: 1;
+  pointer-events: none;
 }
 
 .site-title__text {
@@ -32,4 +33,8 @@
   .site-title__text--sub {
     font-size: 40px;
   }
+}
+
+i {
+  pointer-events: all;
 }

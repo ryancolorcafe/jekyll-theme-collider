@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "hire-me"
-  spec.version       = "0.1.1"
+  spec.name          = "jekyll-theme-simplicity"
+  spec.version       = "0.1.2"
   spec.authors       = ["Ryan Brown"]
   spec.email         = ["ryancolorcafe@gmail.com"]
 
-  spec.summary       = "Hopefully this Jekyll theme will help you get hired."
-  spec.homepage      = "https://github.com/ryancolorcafe/hire-me"
+  spec.summary       = "A simple blog using jekyll-paginate-v2 and particles.js"
+  spec.homepage      = "https://github.com/ryancolorcafe/jekyll-theme-simplicity"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }

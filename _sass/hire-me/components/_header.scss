@@ -28,6 +28,10 @@ nav {
   text-decoration: none;
   color: $white;
   pointer-events: all;
+  transition: color 0.5s;
+  &:hover {
+    color: #343A40;
+  }
 }
 
 .header__link {

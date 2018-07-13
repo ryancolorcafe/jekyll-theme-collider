@@ -60,8 +60,10 @@ header.header__homepage {
 }
 
 @media all and (max-width: 550px) {
+  .header__home {
+    float: unset;
+  }
   .header__homepage {
-    float: none;
     width: 100%;
   }
   header.header__homepage ul {

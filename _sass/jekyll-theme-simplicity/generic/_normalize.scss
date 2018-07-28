@@ -13,6 +13,10 @@ body {
   font-family: "Operator Mono SSm-Book";
 }
 
+.fab:before {
+  font-family: unset;
+}
+
 ::selection {
   background-color: #000;
   color: $white;

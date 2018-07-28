@@ -36,5 +36,12 @@
 }
 
 i {
-  pointer-events: all;
+  pointer-events: all !important;
+  cursor: pointer;
+  padding: 0 0.15em;
+  transition: color 0.5s;
+  color: $white;
+  &:hover {
+    color: #343A40;
+  }
 }

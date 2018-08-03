@@ -27,7 +27,11 @@
   }
 }
 
-.post-list__meta a {
+.post-list__tags {
+  margin-top: 1em;
+}
+
+.post-list__tags a {
   text-decoration: none;
   transition: color 0.5s;
   transition: background-color 0.5s;
@@ -47,8 +51,4 @@
   &:hover {
     color: lighten($mine-shaft, $lighten--button);
   }
-}
-
-.post-list li {
-  // list-style: initial;
 }

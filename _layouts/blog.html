@@ -11,7 +11,8 @@ permalink: /blog/
       <h2>
         <a class="post-list__link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
       </h2>
-      <span class="post-list__meta">{{ post.date | date: "%b %-d, %Y" }}
+      <div>{{ post.date | date: "%b %-d, %Y" }}</div>
+      <div class="post-list__tags">
         {% if post.tags %}
           {% for tag in post.tags %}
             {% assign post_tag_downcase = tag | downcase %}
@@ -23,6 +24,7 @@ permalink: /blog/
             {% endfor %}
           {% endfor %}
         {% endif %}
+      </div>
       </span>
       <span class="post-list__excerpt">
         {{ post.excerpt }}

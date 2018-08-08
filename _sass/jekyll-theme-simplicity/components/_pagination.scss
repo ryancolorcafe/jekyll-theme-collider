@@ -1,5 +1,5 @@
 .pagination {
-  padding: 4em 0 0 0;
+  padding: 3em 0 0 0;
   text-align: center;
   list-style: none;
   & a {
@@ -11,6 +11,7 @@
   display: inline-block;
   border: 0.05em solid $jumbo-gray;
   padding: 0.7em;
+  margin-top: 0.5em;
   transition: color 0.5s, background-color 0.5s, font-size 0.5s, padding 0.5s;
   cursor: pointer;
   &:hover {

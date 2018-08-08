@@ -11,24 +11,25 @@ permalink: /blog/
       <h2>
         <a class="post-list__link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
       </h2>
-      <div>{{ post.date | date: "%b %-d, %Y" }}</div>
-      <div class="post-list__tags">
+      {{ post.date | date: "%b %-d, %Y" }}
+      <div class="post-list__meta">
         {% if post.tags %}
           {% for tag in post.tags %}
             {% assign post_tag_downcase = tag | downcase %}
             {% for blog_tag in site.blog_tags %}
               {% assign blog_tag_title = blog_tag.title | downcase %}
               {% if blog_tag_title == post_tag_downcase %}
-                <a href="/{{ tag }}" class="bg--{{ blog_tag.color | default: 'grey' }}">{{ tag }}</a>
+                <div class="post-list__tags">
+                  <a href="/{{ tag }}" class="post-list__tags bg--{{ blog_tag.color | default: 'grey' }}">{{ tag }}</a>
+                </div>
               {% endif %}
             {% endfor %}
           {% endfor %}
         {% endif %}
       </div>
-      </span>
-      <span class="post-list__excerpt">
+      <div class="post-list__excerpt">
         {{ post.excerpt }}
-      </span>
+      </div>
       <a href="{{ site.baseurl }}{{ post.url }}" class="post-list__read-more">Read more</a>
     </li>
   {% endfor %}

@@ -6,7 +6,7 @@
   & li {
     list-style: none;
   }
-  .about {
+  &.about {
     padding-top: 2em;
   }
 }
@@ -27,8 +27,13 @@
   }
 }
 
+.post-list__meta {
+  display: flex;
+}
+
 .post-list__tags {
   margin-top: 1em;
+  padding-right: 0.5em;
 }
 
 .post-list__tags a {
@@ -51,4 +56,8 @@
   &:hover {
     color: lighten($mine-shaft, $lighten--button);
   }
+}
+
+.post.post-list {
+  margin-top: 2em;
 }

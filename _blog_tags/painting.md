@@ -1,4 +1,3 @@
 ---
-title: Painting
 color: green
 ---

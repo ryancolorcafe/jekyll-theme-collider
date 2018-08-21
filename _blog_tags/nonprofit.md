@@ -1,4 +1,3 @@
 ---
-title: Nonprofit
 color: pink
 ---

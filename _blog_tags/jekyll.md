@@ -1,4 +1,3 @@
 ---
-title: Jekyll
 color: purple
 ---

@@ -1,5 +1,14 @@
 # jekyll-theme-simplicity
 
+## About
+This theme has two main nifty features, the use of [particles.js](https://vincentgarreau.com/particles.js/) and the [jekyll-paginate-v2 plugin](https://github.com/sverrirs/jekyll-paginate-v2/tree/master/examples). For those who don't know, the jekyll-paginate-v2 plugin allows you to do cool things like paginate within a given collection, which the current jekyll-paginate gem does not allow.
+
+I'm also using the powers of [ITCSS](https://github.com/ahmadajmi/awesome-itcss) and [BEM](http://getbem.com/introduction/) in an attempt to keep the SCSS as clean as possible. You may also notice that I'm trying to avoid the use of any libraries to keep things nice and simple. This also allows for greater learning opportunities.
+
+The font I'm using is a favorite of mine, [Operator Mono SSm](https://www.typography.com/fonts/operator/styles/operatormonoscreensmart). Also notice the fun use of colors on tags and each page, these are easily customizable by design and is detailed below.
+
+Please [contact me](https://www.ryandevelops.com/contact) if you are interested in contributing to this theme or have any ideas for improvement!
+
 ## Installation
 **Jekyll requirements**
 * You must have Ruby installed:
@@ -79,7 +88,10 @@ pagination:
 
 ## Site configuration
 
-**Tags:**
+**Config file:**  
+Be sure to add your own site title, email, github username, etc. in config.yml.
+
+**Tags:**  
 To create a new tag, make a new file in the `tags` directory with the name of the tag you'd like to use. The structure of each is the following:
 
 ```
@@ -96,15 +108,46 @@ pagination:
 
 All posts tagged with _Jekyll_
 ```
-If you're familiar with Jekyll, most of this will look familiar. The parts unique to this theme are the color and the pagination configurations. The color will determine what the header of the tag page is and is based on SCSS color settings, meaning it's not just the default CSS purple color being used here. More on that in another section.
+If you're familiar with Jekyll, most of this will look familiar. The parts unique to this theme are the color and the pagination configurations. The color configured here will determine the color of the tag page header and is based on SCSS color settings, meaning it's not just the default CSS purple color being used here. More on that in another section.
 
 The pagination settings are necessary to set for the jekyll-pagination-v2 plugin. The only one you'll likely want to ever modify here is the `tag:` setting, where you simply put the tag name you'd like to use in lowercase.
 
-You'll also want to create a new file in the `_blog_tags` directory that is also named after the tag you'd like to use. This is to set the color of the actual tags themselves.
+You'll also want to create a new file in the `_blog_tags` directory that is also named after the tag you'd like to use. This is to set the color of the actual tags themselves, and only the color needs to be set as below:
 ```
 ---
 color: purple
 ---
 ```
 
-**More info on the site structure and configuration coming soon...**
+**Colors**
+
+If using this theme as a gem, see [overriding theme defaults](https://jekyllrb.com/docs/themes/#overriding-theme-defaults) in the Jekyll docs as you will need to make a copy of the following files.
+
+To set up a new color variable in the SCSS, you may do so in `settings/_color.scss`. To create a new reusable color class that can be used for tag pages and the tags themselves, go to `elements/_colors.scss`. The structure a new color classes should look like the following:
+
+```
+.orange {
+  color: $channel-orange;
+  &.icon {
+    fill: $channel-orange;
+  }
+}
+
+.bg--orange {
+  background: $channel-orange;
+  color: $white;
+}
+
+a.bg--orange:hover {
+  background: darken($channel-orange, $darken--button);
+}
+```
+
+This is what would allow you to simply configure `color: orange` in your `tags` and `_blog_tags` directory files. For an example of what is happening under the hood, you can take a look at the `_includes/header.html` file, lines 1-15.
+
+## Future projects
+
+* Add comments to posts using Disqus  
+* A portfolio/work page using CSS Grid  
+* Search bar for articles in blog  
+* Modular scale typography  

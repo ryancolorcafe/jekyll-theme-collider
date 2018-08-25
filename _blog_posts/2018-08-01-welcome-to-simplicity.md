@@ -16,9 +16,9 @@ The font I'm using is a favorite of mine, [Operator Mono SSm](https://www.typogr
 Here are some things I'd love to see in the future:  
 
   &nbsp;&nbsp;-> A well-written README  
-  &nbsp;&nbsp;-> Add comments to posts using Disqus
+  &nbsp;&nbsp;-> Add comments to posts using Disqus  
   &nbsp;&nbsp;-> A portfolio/work page using CSS Grid  
   &nbsp;&nbsp;-> Search bar for articles in blog  
-  &nbsp;&nbsp;-> Modular Scale Typography
+  &nbsp;&nbsp;-> Modular Scale Typography  
 
 That will suffice as a brief intro for now, expect lots more to come!

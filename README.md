@@ -1,4 +1,4 @@
-# jekyll-theme-simplicity
+# jekyll-theme-collider
 
 ## About
 This theme has two main nifty features, the use of [particles.js](https://vincentgarreau.com/particles.js/) and the [jekyll-paginate-v2 plugin](https://github.com/sverrirs/jekyll-paginate-v2/tree/master/examples). For those who don't know, the jekyll-paginate-v2 plugin allows you to do cool things like paginate within a given collection, which the current jekyll-paginate gem does not allow.
@@ -18,9 +18,9 @@ Please [contact me](https://www.ryandevelops.com/contact) if you are interested 
 
 **Create a local copy of the site**
 * Download this site:
-    * `git clone https://github.com/ryancolorcafe/jekyll-theme-simplicity.git`
+    * `git clone https://github.com/ryancolorcafe/jekyll-theme-collider.git`
 * Move into directory:
-    * `cd jekyll-theme-simplicity`
+    * `cd jekyll-theme-collider`
 * Install required gems:
     * `bundle install`
 * Verify it's working:
@@ -29,32 +29,32 @@ Please [contact me](https://www.ryandevelops.com/contact) if you are interested 
 
 **Install theme using gem**
 * Add this line to your Gemfile:
-    * `gem "jekyll-theme-simplicity"`
+    * `gem "jekyll-theme-collider"`
 * Install running this command in your terminal:
     * `bundle install`
 * Remove the default index.md and about.md files:
     * `rm index.md about.md`
 * Download the index.md file:
-    * `curl -L -O "https://github.com/ryancolorcafe/jekyll-theme-simplicity/raw/master/index.md"`
+    * `curl -L -O "https://github.com/ryancolorcafe/jekyll-theme-collider/raw/master/index.md"`
 * Create the nec·essary folders:
     * `mkdir _blog_posts _blog_tags pages tags`
 * Download pages files:
-    * `cd pages && curl -L -O "https://github.com/ryancolorcafe/jekyll-theme-simplicity/raw/master/pages/{about.html,blog.html,contact.html,thanks.html}"`
+    * `cd pages && curl -L -O "https://github.com/ryancolorcafe/jekyll-theme-collider/raw/master/pages/{about.html,blog.html,contact.html,thanks.html}"`
 
 
 * While not necessary to download the following, you may want to in order to see an example of the use of tags, and to have enough posts to see the jekyll-paginate-v2 plugin in action. Run each command one at a time:
-  * `cd ../tags && curl -L -O "https://github.com/ryancolorcafe/jekyll-theme-simplicity/raw/master/tags/{nonprofit.md,painting.md}"`
+  * `cd ../tags && curl -L -O "https://github.com/ryancolorcafe/jekyll-theme-collider/raw/master/tags/{nonprofit.md,painting.md}"`
 
-  * `cd ../_blog_tags && curl -L -O "https://github.com/ryancolorcafe/jekyll-theme-simplicity/raw/master/_blog_tags/{nonprofit.md,painting.md}"`
+  * `cd ../_blog_tags && curl -L -O "https://github.com/ryancolorcafe/jekyll-theme-collider/raw/master/_blog_tags/{nonprofit.md,painting.md}"`
 
-  * `cd ../_blog_posts && curl -L -O "https://github.com/ryancolorcafe/jekyll-theme-simplicity/raw/master/_blog_posts/{2015-08-15-transition-projects.md,2016-09-30-disjecta.md,2016-10-27-the-nature-conservancy.md,2017-09-27-nice-little-clouds.md,2017-11-10-caldera-arts.md,2018-02-10-the-nature-conservancy.md,2018-07-11-happy-little-trees.md}"`
+  * `cd ../_blog_posts && curl -L -O "https://github.com/ryancolorcafe/jekyll-theme-collider/raw/master/_blog_posts/{2015-08-15-transition-projects.md,2016-09-30-disjecta.md,2016-10-27-the-nature-conservancy.md,2017-09-27-nice-little-clouds.md,2017-11-10-caldera-arts.md,2018-02-10-the-nature-conservancy.md,2018-07-11-happy-little-trees.md}"`
 
 * Don't forget to go back to the root directory `cd ..`
 
 * Finally, add the following to config.yml:
 
 ```
-theme: jekyll-theme-simplicity
+theme: jekyll-theme-collider
 
 plugins:
   - jekyll-paginate-v2

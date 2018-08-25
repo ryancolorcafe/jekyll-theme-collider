@@ -1,13 +1,13 @@
-title: Ryan Brown
-email: ryancolorcafe@gmail.com
+title: Rando Dev
+email: example@example.com
 description: > # this means to ignore newlines until "baseurl:"
-  My portfolio and musings on all ranges of programming topics, mainly Ruby on Rails and React.
+  This is the Collider Jekyll Theme.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-hosted_url: www.ryandevelops.com/
-github_username: ryancolorcafe
-linked_in_profile_name: ryanebrown
-username: Ryan Brown
+hosted_url: ""
+github_username: ""
+linked_in_profile_name: ""
+username: Rando Dev
 user_title: Software Engineer
 
 markdown: kramdown

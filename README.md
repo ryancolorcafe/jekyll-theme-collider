@@ -88,10 +88,12 @@ pagination:
 
 ## Site configuration
 
-**Config file:**  
+**Config file:**
+
 Be sure to add your own site title, email, github username, etc. in config.yml.
 
-**Tags:**  
+**Tags:**
+
 To create a new tag, make a new file in the `tags` directory with the name of the tag you'd like to use. The structure of each is the following:
 
 ```

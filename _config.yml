@@ -1,14 +1,14 @@
 title: Rando Dev
 email: example@example.com
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   This is the Collider Jekyll Theme.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+url: "https://jekyll-theme-collider.netlify.com"
 hosted_url: ""
 github_username: ""
-linked_in_profile_name: ""
-username: Rando Dev
-user_title: Software Engineer
+linked_in_profile: ""
+full_name: Rando Dev
+user_description: Software Engineer
 
 markdown: kramdown
 plugins:

@@ -6,11 +6,11 @@ layout: default
   {% include header.html %}
   <div class="site-title__wrapper">
     <h1>
-      <span class="site-title__text">{{site.username}}</span>
-      <span class="site-title__text--sub">{{site.user_title}}</span>
+      <span class="site-title__text">{{site.full_name}}</span>
+      <span class="site-title__text--sub">{{site.user_description}}</span>
     </h1>
     <a href="https://github.com/{{site.github_username}}" target="_blank"><i class="fab fa-github fa-3x"></i></a>
-    <a href="https://www.linkedin.com/in/{{site.linked_in_profile_name}}/" target="_blank"><i class="fab fa-linkedin-in fa-3x"></i></a>
+    <a href="{{site.linked_in_profile}}" target="_blank"><i class="fab fa-linkedin-in fa-3x"></i></a>
   </div>
 </div>
 

@@ -7,8 +7,6 @@ I'm also using the powers of [ITCSS](https://github.com/ahmadajmi/awesome-itcss)
 
 The font I'm using is a favorite of mine, [Operator Mono SSm](https://www.typography.com/fonts/operator/styles/operatormonoscreensmart). Also notice the fun use of colors on tags and each page, these are easily customizable by design and is detailed below.
 
-Please [contact me](https://www.ryandevelops.com/contact) if you are interested in contributing to this theme or have any ideas for improvement!
-
 ## Installation
 **Jekyll requirements**
 * You must have Ruby installed:
@@ -54,6 +52,17 @@ Please [contact me](https://www.ryandevelops.com/contact) if you are interested 
 * Finally, add the following to config.yml:
 
 ```
+title: [Your site title here]
+email: [Your email]
+description: >
+  [Your site description]
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jekyll-theme-collider.netlify.com"  # the base hostname & protocol for your site, e.g. http://example.com
+github_username: [Your GitHub user name]
+linked_in_profile: [LinkedIn profile url]
+full_name: [Your username]
+user_description: [Your description]
+
 theme: jekyll-theme-collider
 
 plugins:
@@ -86,13 +95,7 @@ pagination:
 * The `curl -L -O` commands may not have fully downloaded each file. Even if it seems the file was fully downloaded, open each one to make sure that it doesn't just contain a 503 error inside. Delete the files with errors and retry the curl commands.  
 * You may need to restart your server in order for your changes to take effect.
 
-## Site configuration
-
-**Config file:**
-
-Be sure to add your own site title, email, github username, etc. in config.yml.
-
-**Tags:**
+## Tags
 
 To create a new tag, make a new file in the `tags` directory with the name of the tag you'd like to use. The structure of each is the following:
 
@@ -120,10 +123,13 @@ You'll also want to create a new file in the `_blog_tags` directory that is also
 color: purple
 ---
 ```
+In order to configure the colors as above, and make your own custom colors, see the section on colors below.
 
-**Colors**
+## Colors
 
 If using this theme as a gem, see [overriding theme defaults](https://jekyllrb.com/docs/themes/#overriding-theme-defaults) in the Jekyll docs as you will need to make a copy of the following files.
+
+**Page header colors**
 
 To set up a new color variable in the SCSS, you may do so in `settings/_color.scss`. To create a new reusable color class that can be used for tag pages and the tags themselves, go to `elements/_colors.scss`. The structure a new color classes should look like the following:
 
@@ -147,9 +153,26 @@ a.bg--orange:hover {
 
 This is what would allow you to simply configure `color: orange` in your `tags` and `_blog_tags` directory files. For an example of what is happening under the hood, you can take a look at the `_includes/header.html` file, lines 1-15.
 
+**Home page background color**
+
+To change the background color of the particles.js canvas on the home page, go to `components/_particles.scss` and change the background color here:
+```
+#particles-js {
+  background: $dark-sea-green;
+}
+```
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/ryancolorcafe/jekyll-theme-collider. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
 ## Future projects
 
 * Add comments to posts using Disqus  
 * A portfolio/work page using CSS Grid  
 * Search bar for articles in blog  
 * Modular scale typography  
+
+## License
+
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).

@@ -162,6 +162,16 @@ To change the background color of the particles.js canvas on the home page, go t
 }
 ```
 
+## About page customization
+
+If creating a local copy of the site, simple modify the HTML and text in `_layouts/about.html`. When using the gem theme, create a new `_layouts` directory with an `about.html` file inside that use the following front matter:
+```
+---
+layout: default
+---
+```
+You may put whatever HTML and text you'd like below.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/ryancolorcafe/jekyll-theme-collider. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.

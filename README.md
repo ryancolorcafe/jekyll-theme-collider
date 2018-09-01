@@ -62,6 +62,8 @@ github_username: [Your GitHub user name]
 linked_in_profile: [LinkedIn profile url]
 full_name: [Your username]
 user_description: [Your description]
+disqus:
+  shortname: [Your Disqus shortname]
 
 theme: jekyll-theme-collider
 
@@ -172,13 +174,16 @@ layout: default
 ```
 You may put whatever HTML and text you'd like below.
 
+## Customizing particles.js
+
+To customize particles.js, such as the shape and size of the particles, you'll need to edit `assets/js/app.js`. If using the theme gem, you'll need to create this file and override with your own settings. Since this customization is outside the scope of this readme, I recommend learning more on the particles.js [GitHub page](https://github.com/VincentGarreau/particles.js/).
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/ryancolorcafe/jekyll-theme-collider. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Future projects
 
-* Add comments to posts using Disqus  
 * A portfolio/work page using CSS Grid  
 * Search bar for articles in blog  
 * Modular scale typography  

@@ -9,6 +9,8 @@ github_username: ""
 linked_in_profile: ""
 full_name: Rando Dev
 user_description: Software Engineer
+disqus:
+  shortname: jekyll-theme-collider-netlify-com
 
 markdown: kramdown
 plugins:

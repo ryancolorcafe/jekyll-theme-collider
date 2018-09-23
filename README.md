@@ -1,5 +1,21 @@
 # jekyll-theme-collider
 
+- [About](#about)  
+- [Installation](#installation)  
+  - [Jekyll requirements](#jekyll-requirements)
+  - [Create a local copy of the site](#create-a-local-copy-of-the-site)
+  - [Install theme using gem](#install-theme-using-gem)
+  - [Troubleshooting](#troubleshooting)
+- [Tags](#tags)  
+- [Colors](#colors)  
+  - [Page header colors](#page-header-colors)
+  - [Homepage background color](#homepage-background-color)
+- [About page customization](#about-page-customization)
+- [Customizing particles.js](#customizing-particles.js)  
+- [Future projects](#future-projects)  
+- [Contributing](#contributing)  
+- [License](#license)  
+
 ## About
 This theme has two main nifty features, the use of [particles.js](https://vincentgarreau.com/particles.js/) and the [jekyll-paginate-v2 plugin](https://github.com/sverrirs/jekyll-paginate-v2/tree/master/examples). For those who don't know, the jekyll-paginate-v2 plugin allows you to do cool things like paginate within a given collection, which the current jekyll-paginate gem does not allow.
 
@@ -8,13 +24,13 @@ I'm also using the powers of [ITCSS](https://github.com/ahmadajmi/awesome-itcss)
 The font I'm using is a favorite of mine, [Operator Mono SSm](https://www.typography.com/fonts/operator/styles/operatormonoscreensmart). Also notice the fun use of colors on tags and each page, these are easily customizable by design and is detailed below.
 
 ## Installation
-**Jekyll requirements**
+#### Jekyll requirements
 * You must have Ruby installed:
     * https://www.ruby-lang.org/en/downloads/
 * Install Jekyll and Bundler:
     * `gem install jekyll bundler`
 
-**Create a local copy of the site**
+#### Create a local copy of the site
 * Download this site:
     * `git clone https://github.com/ryancolorcafe/jekyll-theme-collider.git`
 * Move into directory:
@@ -25,7 +41,7 @@ The font I'm using is a favorite of mine, [Operator Mono SSm](https://www.typogr
     * `bundle exec jekyll serve`
     * Browse to http://localhost:4000
 
-**Install theme using gem**
+#### Install theme using gem
 * Add this line to your Gemfile:
     * `gem "jekyll-theme-collider"`
 * Install running this command in your terminal:
@@ -63,7 +79,7 @@ linked_in_profile: [LinkedIn profile url]
 full_name: [Your username]
 user_description: [Your description]
 disqus:
-  shortname: [Your Disqus shortname]
+  shortname: [Your Disqus shortname] # https://disqus.com
 
 theme: jekyll-theme-collider
 
@@ -93,7 +109,7 @@ pagination:
 * Run your server and you should be good to go!  
   * `bundle exec jekyll serve`
 
-**Troubleshooting:**
+#### Troubleshooting:
 * The `curl -L -O` commands may not have fully downloaded each file. Even if it seems the file was fully downloaded, open each one to make sure that it doesn't just contain a 503 error inside. Delete the files with errors and retry the curl commands.  
 * You may need to restart your server in order for your changes to take effect.
 
@@ -131,7 +147,7 @@ In order to configure the colors as above, and make your own custom colors, see 
 
 If using this theme as a gem, see [overriding theme defaults](https://jekyllrb.com/docs/themes/#overriding-theme-defaults) in the Jekyll docs as you will need to make a copy of the following files.
 
-**Page header colors**
+#### Page header colors
 
 To set up a new color variable in the SCSS, you may do so in `settings/_color.scss`. To create a new reusable color class that can be used for tag pages and the tags themselves, go to `elements/_colors.scss`. The structure a new color classes should look like the following:
 
@@ -155,9 +171,9 @@ a.bg--orange:hover {
 
 This is what would allow you to simply configure `color: orange` in your `tags` and `_blog_tags` directory files. For an example of what is happening under the hood, you can take a look at the `_includes/header.html` file, lines 1-15.
 
-**Home page background color**
+#### Homepage background color
 
-To change the background color of the particles.js canvas on the home page, go to `components/_particles.scss` and change the background color here:
+To change the background color of the particles.js canvas on the homepage, go to `components/_particles.scss` and change the background color here:
 ```
 #particles-js {
   background: $dark-sea-green;
@@ -178,15 +194,15 @@ You may put whatever HTML and text you'd like below.
 
 To customize particles.js, such as the shape and size of the particles, you'll need to edit `assets/js/app.js`. If using the theme gem, you'll need to create this file and override with your own settings. Since this customization is outside the scope of this readme, I recommend learning more on the particles.js [GitHub page](https://github.com/VincentGarreau/particles.js/).
 
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/ryancolorcafe/jekyll-theme-collider. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
 ## Future projects
 
 * A portfolio/work page using CSS Grid  
 * Search bar for articles in blog  
 * Modular scale typography  
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/ryancolorcafe/jekyll-theme-collider. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 

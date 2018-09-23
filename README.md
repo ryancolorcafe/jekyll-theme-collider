@@ -131,7 +131,7 @@ pagination:
 
 All posts tagged with _Jekyll_
 ```
-If you're familiar with Jekyll, most of this will look familiar. The parts unique to this theme are the color and the pagination configurations. The color configured here will determine the color of the tag page header and is based on SCSS color settings, meaning it's not just the default CSS purple color being used here. More on that in another section.
+If you're familiar with Jekyll [front matter](https://jekyllrb.com/docs/front-matter/), this configuration will feel intuitive. The parts unique to this theme are the color and the pagination configurations. The color configured here will determine the color of the tag page header and is based on SCSS color settings, meaning it's not just the default CSS purple color being used here. More on that in another section.
 
 The pagination settings are necessary to set for the jekyll-pagination-v2 plugin. The only one you'll likely want to ever modify here is the `tag:` setting, where you simply put the tag name you'd like to use in lowercase.
 

@@ -11,7 +11,7 @@
   - [Page header colors](#page-header-colors)
   - [Homepage background color](#homepage-background-color)
 - [About page customization](#about-page-customization)
-- [Customizing particles.js](#customizing-particles.js)  
+- [Customizing particles js](#customizing-particles-js)  
 - [Future projects](#future-projects)  
 - [Contributing](#contributing)  
 - [License](#license)  
@@ -190,7 +190,7 @@ layout: default
 ```
 You may put whatever HTML and text you'd like below.
 
-## Customizing particles.js
+## Customizing particles js
 
 To customize particles.js, such as the shape and size of the particles, you'll need to edit `assets/js/app.js`. If using the theme gem, you'll need to create this file and override with your own settings. Since this customization is outside the scope of this readme, I recommend learning more on the particles.js [GitHub page](https://github.com/VincentGarreau/particles.js/).
 

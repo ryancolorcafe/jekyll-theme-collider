@@ -1,5 +1,12 @@
 # Changelog
 
+## [v0.1.3](https://rubygems.org/gems/jekyll-theme-collider/versions/0.1.3) (2018-09-30)
+
+**Implemented enhancements:**
+
+- Add syntax highlighting Sass partial  [#0c470a2](https://github.com/ryancolorcafe/jekyll-theme-collider/commit/0c470a2abb39efc07fae4e9a350c5a960dd43cd0)
+- Default images to be 100% width [#9302e99](https://github.com/ryancolorcafe/jekyll-theme-collider/commit/9302e990913c56794feddc349d332fd44695e843)
+
 ## [v0.1.2](https://rubygems.org/gems/jekyll-theme-collider/versions/0.1.2) (2018-09-23)
 
 **Implemented enhancements:**

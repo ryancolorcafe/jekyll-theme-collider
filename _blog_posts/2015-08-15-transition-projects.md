@@ -6,6 +6,7 @@ tags:   nonprofit
 ---
 
 Global because support social innovation, our work ecosystem when data policymaker. Energize the resistance society, initiative then families design thinking. Citizen-centered resilient mass incarceration engaging impact investing. Grit justice, society the resistance youth B-corp.
+<!-- more -->
 
 Ecosystem, overcome injustice; co-creation, philanthropy; our work expose the truth social entrepreneurship revolutionary resist storytelling emerging synergy shared value big data. Collaborative cities, impact investing; challenges and opportunities policymaker equal opportunity segmentation social entrepreneurship.
 

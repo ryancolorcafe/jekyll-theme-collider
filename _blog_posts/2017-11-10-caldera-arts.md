@@ -6,6 +6,7 @@ tags:   nonprofit painting
 ---
 
 Targeted, emerging circular leverage philanthropy corporate social responsibility efficient venture philanthropy black lives matter ecosystem corporate social responsibility overcome injustice. Incubator shared vocabulary boots on the ground energize co-create ideate blended value.
+<!-- more -->
 
 Co-creation, ideate social return on investment program areas targeted resist. Energize our work vibrant, program area, move the needle boots on the ground and inspirational or.
 

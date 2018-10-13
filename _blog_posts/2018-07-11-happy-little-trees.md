@@ -6,6 +6,7 @@ tags:   painting
 ---
 
 Go out on a limb - that's where the fruit is. Everyone is going to see things differently - and that's the way it should be. See how easy it is to create a little tree right in your world. Only think about one thing at a time. Don't get greedy.
+<!-- more -->
 
 You've got to learn to fight the temptation to resist these things. Just let them happen. This present moment is perfect simply due to the fact you're experiencing it. It's hard to see things when you're too close. Take a step back and look. Let's build an almighty mountain.
 

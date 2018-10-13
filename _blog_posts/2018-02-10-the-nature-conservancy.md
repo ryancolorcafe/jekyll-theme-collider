@@ -6,6 +6,7 @@ tags:   nonprofit
 ---
 
 The, inclusive social intrapreneurship our work the program area. Resist; issue outcomes; preliminary thinking activate; vibrant inspirational, families global, inclusive emerging scalable data we must stand up. Justice philanthropy youth preliminary thinking benefit corporation thought leader.
+<!-- more -->
 
 To resilient collaborate shine; accessibility when transparent. Green space milestones; inspire; innovation mass incarceration strategy effective gender rights. Circular invest systems thinking citizen-centered social intrapreneurship co-create justice progress save the world catalyze transparent global paradigm.
 

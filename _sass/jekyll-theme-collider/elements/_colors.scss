@@ -93,3 +93,19 @@ a.bg--orange:hover {
 a.bg--bittersweet:hover {
   background: darken($bittersweet, $darken--button);
 }
+
+.react-blue {
+  color: $react-blue;
+  &.icon {
+    fill: $react-blue;
+  }
+}
+
+.bg--react-blue {
+  background: $react-blue;
+  color: $white;
+}
+
+a.bg--react-blue:hover {
+  background: darken($react-blue, $darken--button);
+}

@@ -13,9 +13,9 @@
 
 .post-list__link {
   text-decoration: none;
-  font-size: 42px;
+  font-size: 36px;
   transition: color 0.5s;
-  font-family: "Operator Mono SSm-Medium";
+  font-family: "Watford Medium";
   &:hover {
     color: lighten($mine-shaft, $lighten--button);
   }
@@ -23,7 +23,7 @@
 
 @media all and (max-width: 800px) {
   .post-list__link {
-    font-size: 36px;
+    font-size: 30px;
   }
 }
 

@@ -1,227 +1,301 @@
 /**
  * Syntax highlighting styles
  */
+ 
+.code span {
+  font-family: Operator Mono SSm-Medium;
+}
 
 .highlight {
   display: flex;
   margin-left: 0;
   margin-right: 0;
+  font-family: Operator Mono SSm-Medium !important;
 }
 
 .highlight pre {
   background-color: #272822;
   padding: 1em;
   white-space: pre-wrap;
+  font-family: Operator Mono SSm-Medium !important;
 }
 .highlight .hll {
+  font-family: Operator Mono SSm-Medium;
   background-color: #272822;
 }
 .highlight .c {
+  font-family: Operator Mono SSm-Medium;
   color: #75715e;
 } /* Comment */
 .highlight .err {
+  font-family: Operator Mono SSm-Medium;
   color: #960050;
   background-color: #1e0010;
 } /* Error */
 .highlight .k {
+  font-family: Operator Mono SSm-Medium;
   color: #66d9ef;
 } /* Keyword */
 .highlight .l {
+  font-family: Operator Mono SSm-Medium;
   color: #ae81ff;
 } /* Literal */
 .highlight .n {
+  font-family: Operator Mono SSm-Medium;
   color: #f8f8f2;
 } /* Name */
 .highlight .o {
+  font-family: Operator Mono SSm-Medium;
   color: #f92672;
 } /* Operator */
 .highlight .p {
+  font-family: Operator Mono SSm-Medium;
   color: #f8f8f2;
 } /* Punctuation */
 .highlight .cm {
+  font-family: Operator Mono SSm-Medium;
   color: #75715e;
 } /* Comment.Multiline */
 .highlight .cp {
+  font-family: Operator Mono SSm-Medium;
   color: #75715e;
 } /* Comment.Preproc */
 .highlight .c1 {
+  font-family: Operator Mono SSm-Medium;
   color: #75715e;
 } /* Comment.Single */
 .highlight .cs {
+  font-family: Operator Mono SSm-Medium;
   color: #75715e;
 } /* Comment.Special */
 .highlight .ge {
+  font-family: Operator Mono SSm-Medium;
   font-style: italic;
 } /* Generic.Emph */
 .highlight .gs {
+  font-family: Operator Mono SSm-Medium;
   font-weight: bold;
 } /* Generic.Strong */
 .highlight .kc {
+  font-family: Operator Mono SSm-Medium;
   color: #66d9ef;
 } /* Keyword.Constant */
 .highlight .kd {
+  font-family: Operator Mono SSm-Medium;
   color: #66d9ef;
 } /* Keyword.Declaration */
 .highlight .kn {
+  font-family: Operator Mono SSm-Medium;
   color: #f92672;
 } /* Keyword.Namespace */
 .highlight .kp {
+  font-family: Operator Mono SSm-Medium;
   color: #66d9ef;
 } /* Keyword.Pseudo */
 .highlight .kr {
+  font-family: Operator Mono SSm-Medium;
   color: #66d9ef;
 } /* Keyword.Reserved */
 .highlight .kt {
+  font-family: Operator Mono SSm-Medium;
   color: #66d9ef;
 } /* Keyword.Type */
 .highlight .ld {
+  font-family: Operator Mono SSm-Medium;
   color: #e6db74;
 } /* Literal.Date */
 .highlight .m {
+  font-family: Operator Mono SSm-Medium;
   color: #ae81ff;
 } /* Literal.Number */
 .highlight .s {
+  font-family: Operator Mono SSm-Medium;
   color: #e6db74;
 } /* Literal.String */
 .highlight .na {
+  font-family: Operator Mono SSm-Medium;
   color: #a6e22e;
 } /* Name.Attribute */
 .highlight .nb {
+  font-family: Operator Mono SSm-Medium;
   color: #f8f8f2;
 } /* Name.Builtin */
 .highlight .nc {
+  font-family: Operator Mono SSm-Medium;
   color: #a6e22e;
 } /* Name.Class */
 .highlight .no {
+  font-family: Operator Mono SSm-Medium;
   color: #66d9ef;
 } /* Name.Constant */
 .highlight .nd {
+  font-family: Operator Mono SSm-Medium;
   color: #a6e22e;
 } /* Name.Decorator */
 .highlight .ni {
+  font-family: Operator Mono SSm-Medium;
   color: #f8f8f2;
 } /* Name.Entity */
 .highlight .ne {
+  font-family: Operator Mono SSm-Medium;
   color: #a6e22e;
 } /* Name.Exception */
 .highlight .nf {
+  font-family: Operator Mono SSm-Medium;
   color: #a6e22e;
 } /* Name.Function */
 .highlight .nl {
+  font-family: Operator Mono SSm-Medium;
   color: #f8f8f2;
 } /* Name.Label */
 .highlight .nn {
+  font-family: Operator Mono SSm-Medium;
   color: #f8f8f2;
 } /* Name.Namespace */
 .highlight .nx {
+  font-family: Operator Mono SSm-Medium;
   color: #a6e22e;
 } /* Name.Other */
 .highlight .py {
+  font-family: Operator Mono SSm-Medium;
   color: #f8f8f2;
 } /* Name.Property */
 .highlight .nt {
+  font-family: Operator Mono SSm-Medium;
   color: #f92672;
 } /* Name.Tag */
 .highlight .nv {
+  font-family: Operator Mono SSm-Medium;
   color: #f8f8f2;
 } /* Name.Variable */
 .highlight .ow {
+  font-family: Operator Mono SSm-Medium;
   color: #f92672;
 } /* Operator.Word */
 .highlight .w {
+  font-family: Operator Mono SSm-Medium;
   color: #f8f8f2;
 } /* Text.Whitespace */
 .highlight .mf {
+  font-family: Operator Mono SSm-Medium;
   color: #ae81ff;
 } /* Literal.Number.Float */
 .highlight .mh {
+  font-family: Operator Mono SSm-Medium;
   color: #ae81ff;
 } /* Literal.Number.Hex */
 .highlight .mi {
+  font-family: Operator Mono SSm-Medium;
   color: #ae81ff;
 }
 /* Literal.Number.Integer */
 .highlight .mo {
+  font-family: Operator Mono SSm-Medium;
   color: #ae81ff;
 } /* Literal.Number.Oct */
 .highlight .sb {
+  font-family: Operator Mono SSm-Medium;
   color: #e6db74;
 } /* Literal.String.Backtick */
 .highlight .sc {
+  font-family: Operator Mono SSm-Medium;
   color: #e6db74;
 } /* Literal.String.Char */
 .highlight .sd {
+  font-family: Operator Mono SSm-Medium;
   color: #e6db74;
 } /* Literal.String.Doc */
 .highlight .s2 {
+  font-family: Operator Mono SSm-Medium;
   color: #e6db74;
 } /* Literal.String.Double */
 .highlight .se {
+  font-family: Operator Mono SSm-Medium;
   color: #ae81ff;
 } /* Literal.String.Escape */
 .highlight .sh {
+  font-family: Operator Mono SSm-Medium;
   color: #e6db74;
 } /* Literal.String.Heredoc */
 .highlight .si {
+  font-family: Operator Mono SSm-Medium;
   color: #e6db74;
 } /* Literal.String.Interpol */
 .highlight .sx {
+  font-family: Operator Mono SSm-Medium;
   color: #e6db74;
 } /* Literal.String.Other */
 .highlight .sr {
+  font-family: Operator Mono SSm-Medium;
   color: #e6db74;
 } /* Literal.String.Regex */
 .highlight .s1 {
+  font-family: Operator Mono SSm-Medium;
   color: #e6db74;
 } /* Literal.String.Single */
 .highlight .ss {
+  font-family: Operator Mono SSm-Medium;
   color: #e6db74;
 } /* Literal.String.Symbol */
 .highlight .bp {
+  font-family: Operator Mono SSm-Medium;
   color: #f8f8f2;
 } /* Name.Builtin.Pseudo */
 .highlight .vc {
+  font-family: Operator Mono SSm-Medium;
   color: #f8f8f2;
 } /* Name.Variable.Class */
 .highlight .vg {
+  font-family: Operator Mono SSm-Medium;
   color: #f8f8f2;
 } /* Name.Variable.Global */
 .highlight .vi {
+  font-family: Operator Mono SSm-Medium;
   color: #f8f8f2;
 } /* Name.Variable.Instance */
 .highlight .il {
+  font-family: Operator Mono SSm-Medium;
   color: #ae81ff;
 } /* Literal.Number.Integer.Long */
 
 .highlight .gh {
+  font-family: Operator Mono SSm-Medium;
 } /* Generic Heading & Diff Header */
 .highlight .gu {
+  font-family: Operator Mono SSm-Medium;
   color: #75715e;
 } /* Generic.Subheading & Diff Unified/Comment? */
 .highlight .gd {
+  font-family: Operator Mono SSm-Medium;
   color: #f92672;
 } /* Generic.Deleted & Diff Deleted */
 .highlight .gi {
+  font-family: Operator Mono SSm-Medium;
   color: #a6e22e;
 } /* Generic.Inserted & Diff Inserted */
 
 .highlight span.dl {
+  font-family: Operator Mono SSm-Medium;
   color: #e6db74;
 }
 /* Colon */
 .highlight .pi {
+  font-family: Operator Mono SSm-Medium;
   color: #a6e22e;
 } 
 
 .language-html {
+  font-family: Operator Mono SSm-Medium;
   color: #a6e22e;
   display: flex;
 }
 
 .highlighter-rouge {
+  font-family: Operator Mono SSm-Medium;
   background-color: #f0f0f0;
 }
 
 .language-shell {
+  font-family: Operator Mono SSm-Medium;
   color: white;
 }

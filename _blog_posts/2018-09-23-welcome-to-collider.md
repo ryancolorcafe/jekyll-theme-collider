@@ -12,7 +12,7 @@ This theme has two main nifty features, the use of [particles.js](https://vincen
 
 I'm also using the powers of [ITCSS](https://github.com/ahmadajmi/awesome-itcss) and [BEM](http://getbem.com/introduction/) in an attempt to keep the SCSS as clean as possible. You may also notice that I'm trying to avoid the use of any libraries to keep things nice and simple. This also allows for greater learning opportunities.
 
-The font I'm using is a favorite of mine, [Operator Mono SSm](https://www.typography.com/fonts/operator/styles/operatormonoscreensmart). Also notice the fun use of colors with tags and on each page header. You can learn how to easily customize these in the [colors](https://github.com/ryancolorcafe/jekyll-theme-collider#colors) section in the README.
+The font I'm using is a favorite of mine, Watford. Also notice the fun use of colors with tags and on each page header. You can learn how to easily customize these in the [colors](https://github.com/ryancolorcafe/jekyll-theme-collider#colors) section in the README.
 
 Here are some things I'd love to see in the future:  
 

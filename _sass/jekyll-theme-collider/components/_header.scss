@@ -13,7 +13,7 @@ nav {
     margin: 0;
     padding-top: 0.2em;
     float: right;
-    font-family: "Operator Mono SSm-Light";
+    font-family: "Watford Light";
   }
   & li {
     display: inline;
@@ -24,7 +24,8 @@ nav {
 
 .header__home {
   float: left;
-  font-family: "Operator Mono SSm-Bold Italic";
+  font-family: "Watford Bold Italic";
+  font-size: 18px;
   text-decoration: none;
   color: $white;
   pointer-events: all;
@@ -35,6 +36,7 @@ nav {
 }
 
 .header__link {
+  font-size: 18px;
   text-decoration: none;
   color: $white;
   transition: color 0.5s;
@@ -58,8 +60,8 @@ header.header__homepage {
   padding-left: 4.5rem;
   padding-right: 4.5rem;
   text-align: center;
-  font-family: "Operator Mono SSm-Bold";
-  font-size: 2.75em;
+  font-family: "Watford Bold";
+  font-size: 3em;
   color: $white;
 }
 

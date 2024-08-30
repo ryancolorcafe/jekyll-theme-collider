@@ -125,3 +125,35 @@ a.bg--bittersweet:hover {
 a.bg--react-blue:hover {
   background: darken($react-blue, $darken--button);
 }
+
+.go-blue {
+  color: $go-blue;
+  &.icon {
+    fill: $go-blue;
+  }
+}
+
+.bg--go-blue {
+  background: $go-blue;
+  color: $white;
+}
+
+a.bg--go-blue:hover {
+  background: darken($go-blue, $darken--button);
+}
+
+.github-black {
+  color: $github-black;
+  &.icon {
+    fill: $github-black;
+  }
+}
+
+.bg--github-black {
+  background: $github-black;
+  color: $white;
+}
+
+a.bg--github-black:hover {
+  background: darken($github-black, $darken--button);
+}
